@@ -1,85 +1,35 @@
 {
-  "C001": {
-    "id": "C001",
-    "isToken": false,
-    "face": { "front": { "name": "Card 01", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(1).png", "isHorizontal": false } },
-    "name": "Card 01"
-  },
-  "C002": {
-    "id": "C002",
-    "isToken": false,
-    "face": { "front": { "name": "Card 02", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(2).png", "isHorizontal": false } },
-    "name": "Card 02"
-  },
-  "C003": {
-    "id": "C003",
-    "isToken": false,
-    "face": { "front": { "name": "Card 03", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(3).png", "isHorizontal": false } },
-    "name": "Card 03"
-  },
-  "C004": {
-    "id": "C004",
-    "isToken": false,
-    "face": { "front": { "name": "Card 04", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(4).png", "isHorizontal": false } },
-    "name": "Card 04"
-  },
-  "C005": {
-    "id": "C005",
-    "isToken": false,
-    "face": { "front": { "name": "Card 05", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(5).png", "isHorizontal": false } },
-    "name": "Card 05"
-  },
-  "C006": {
-    "id": "C006",
-    "isToken": false,
-    "face": { "front": { "name": "Card 06", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(6).png", "isHorizontal": false } },
-    "name": "Card 06"
-  },
-  "C007": {
-    "id": "C007",
-    "isToken": false,
-    "face": { "front": { "name": "Card 07", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(7).png", "isHorizontal": false } },
-    "name": "Card 07"
-  },
-  "C008": {
-    "id": "C008",
-    "isToken": false,
-    "face": { "front": { "name": "Card 08", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(8).png", "isHorizontal": false } },
-    "name": "Card 08"
-  },
-  "C009": {
-    "id": "C009",
-    "isToken": false,
-    "face": { "front": { "name": "Card 09", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(9).png", "isHorizontal": false } },
-    "name": "Card 09"
-  },
-  "C010": {
-    "id": "C010",
-    "isToken": false,
-    "face": { "front": { "name": "Card 10", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(10).png", "isHorizontal": false } },
-    "name": "Card 10"
-  },
+  "C001": { "id": "C001", "isToken": false, "face": { "front": { "name": "Card 01", "type": "Spell", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(1).png", "isHorizontal": false } }, "name": "Card 01", "type": "Spell", "cost": 0 },
+  "C002": { "id": "C002", "isToken": false, "face": { "front": { "name": "Card 02", "type": "Unit", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(2).png", "isHorizontal": false } }, "name": "Card 02", "type": "Unit", "cost": 0 },
+  "C003": { "id": "C003", "isToken": false, "face": { "front": { "name": "Card 03", "type": "Spell", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(3).png", "isHorizontal": false } }, "name": "Card 03", "type": "Spell", "cost": 0 },
+  "C004": { "id": "C004", "isToken": false, "face": { "front": { "name": "Card 04", "type": "Spell", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(4).png", "isHorizontal": false } }, "name": "Card 04", "type": "Spell", "cost": 0 },
+  "C005": { "id": "C005", "isToken": false, "face": { "front": { "name": "Card 05", "type": "Spell", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(5).png", "isHorizontal": false } }, "name": "Card 05", "type": "Spell", "cost": 0 },
+  "C006": { "id": "C006", "isToken": false, "face": { "front": { "name": "Card 06", "type": "Spell", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(6).png", "isHorizontal": false } }, "name": "Card 06", "type": "Spell", "cost": 0 },
+  "C007": { "id": "C007", "isToken": false, "face": { "front": { "name": "Card 07", "type": "Spell", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(7).png", "isHorizontal": false } }, "name": "Card 07", "type": "Spell", "cost": 0 },
+  "C008": { "id": "C008", "isToken": false, "face": { "front": { "name": "Card 08", "type": "Unit", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(8).png", "isHorizontal": false } }, "name": "Card 08", "type": "Unit", "cost": 0 },
+  "C009": { "id": "C009", "isToken": false, "face": { "front": { "name": "Card 09", "type": "Spell", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(9).png", "isHorizontal": false } }, "name": "Card 09", "type": "Spell", "cost": 0 },
+  "C010": { "id": "C010", "isToken": false, "face": { "front": { "name": "Card 10", "type": "Spell", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(10).png", "isHorizontal": false } }, "name": "Card 10", "type": "Spell", "cost": 0 },
+  "C011": { "id": "C011", "isToken": false, "face": { "front": { "name": "Card 11", "type": "Spell", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(11).png", "isHorizontal": false } }, "name": "Card 11", "type": "Spell", "cost": 0 },
+  "C012": { "id": "C012", "isToken": false, "face": { "front": { "name": "Card 12", "type": "Spell", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(12).png", "isHorizontal": false } }, "name": "Card 12", "type": "Spell", "cost": 0 },
+  "C013": { "id": "C013", "isToken": false, "face": { "front": { "name": "Card 13", "type": "Spell", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(13).png", "isHorizontal": false } }, "name": "Card 13", "type": "Spell", "cost": 0 },
+  "C014": { "id": "C014", "isToken": false, "face": { "front": { "name": "Card 14", "type": "Spell", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(14).png", "isHorizontal": false } }, "name": "Card 14", "type": "Spell", "cost": 0 },
+  "C015": { "id": "C015", "isToken": false, "face": { "front": { "name": "Card 15", "type": "Unit", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(15).png", "isHorizontal": false } }, "name": "Card 15", "type": "Unit", "cost": 0 },
+  "C016": { "id": "C016", "isToken": false, "face": { "front": { "name": "Card 16", "type": "Unit", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(16).png", "isHorizontal": false } }, "name": "Card 16", "type": "Unit", "cost": 0 },
+  "C017": { "id": "C017", "isToken": false, "face": { "front": { "name": "Card 17", "type": "Unit", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(17).png", "isHorizontal": false } }, "name": "Card 17", "type": "Unit", "cost": 0 },
+  "C018": { "id": "C018", "isToken": false, "face": { "front": { "name": "Card 18", "type": "Unit", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(18).png", "isHorizontal": false } }, "name": "Card 18", "type": "Unit", "cost": 0 },
+  "C019": { "id": "C019", "isToken": false, "face": { "front": { "name": "Card 19", "type": "Unit", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(19).png", "isHorizontal": false } }, "name": "Card 19", "type": "Unit", "cost": 0 },
+  "C020": { "id": "C020", "isToken": false, "face": { "front": { "name": "Card 20", "type": "Unit", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(20).png", "isHorizontal": false } }, "name": "Card 20", "type": "Unit", "cost": 0 },
+  "C021": { "id": "C021", "isToken": false, "face": { "front": { "name": "Card 21", "type": "Unit", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(21).png", "isHorizontal": false } }, "name": "Card 21", "type": "Unit", "cost": 0 },
+  "C022": { "id": "C022", "isToken": false, "face": { "front": { "name": "Card 22", "type": "Unit", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(22).png", "isHorizontal": false } }, "name": "Card 22", "type": "Unit", "cost": 0 },
+  "C023": { "id": "C023", "isToken": false, "face": { "front": { "name": "Card 23", "type": "Unit", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(23).png", "isHorizontal": false } }, "name": "Card 23", "type": "Unit", "cost": 0 },
+  "C024": { "id": "C024", "isToken": false, "face": { "front": { "name": "Card 24", "type": "Unit", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(24).png", "isHorizontal": false } }, "name": "Card 24", "type": "Unit", "cost": 0 },
+  "C025": { "id": "C025", "isToken": false, "face": { "front": { "name": "Card 25", "type": "Unit", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(25).png", "isHorizontal": false } }, "name": "Card 25", "type": "Unit", "cost": 0 },
+  "C026": { "id": "C026", "isToken": false, "face": { "front": { "name": "Card 26", "type": "Unit", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(26).png", "isHorizontal": false } }, "name": "Card 26", "type": "Unit", "cost": 0 },
+  "C027": { "id": "C027", "isToken": false, "face": { "front": { "name": "Card 27", "type": "Unit", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(27).png", "isHorizontal": false } }, "name": "Card 27", "type": "Unit", "cost": 0 },
+  "C028": { "id": "C028", "isToken": false, "face": { "front": { "name": "Card 28", "type": "Unit", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(28).png", "isHorizontal": false } }, "name": "Card 28", "type": "Unit", "cost": 0 },
+  "C029": { "id": "C029", "isToken": false, "face": { "front": { "name": "Card 29", "type": "Unit", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(29).png", "isHorizontal": false } }, "name": "Card 29", "type": "Unit", "cost": 0 },
+  "C030": { "id": "C030", "isToken": false, "face": { "front": { "name": "Card 30", "type": "Spell", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(30).png", "isHorizontal": false } }, "name": "Card 30", "type": "Spell", "cost": 0 },
 
-  "C011": { "id": "C011", "isToken": false, "face": { "front": { "name": "Card 11", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(11).png", "isHorizontal": false } }, "name": "Card 11" },
-  "C012": { "id": "C012", "isToken": false, "face": { "front": { "name": "Card 12", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(12).png", "isHorizontal": false } }, "name": "Card 12" },
-  "C013": { "id": "C013", "isToken": false, "face": { "front": { "name": "Card 13", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(13).png", "isHorizontal": false } }, "name": "Card 13" },
-  "C014": { "id": "C014", "isToken": false, "face": { "front": { "name": "Card 14", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(14).png", "isHorizontal": false } }, "name": "Card 14" },
-  "C015": { "id": "C015", "isToken": false, "face": { "front": { "name": "Card 15", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(15).png", "isHorizontal": false } }, "name": "Card 15" },
-  "C016": { "id": "C016", "isToken": false, "face": { "front": { "name": "Card 16", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(16).png", "isHorizontal": false } }, "name": "Card 16" },
-  "C017": { "id": "C017", "isToken": false, "face": { "front": { "name": "Card 17", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(17).png", "isHorizontal": false } }, "name": "Card 17" },
-  "C018": { "id": "C018", "isToken": false, "face": { "front": { "name": "Card 18", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(18).png", "isHorizontal": false } }, "name": "Card 18" },
-  "C019": { "id": "C019", "isToken": false, "face": { "front": { "name": "Card 19", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(19).png", "isHorizontal": false } }, "name": "Card 19" },
-  "C020": { "id": "C020", "isToken": false, "face": { "front": { "name": "Card 20", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(20).png", "isHorizontal": false } }, "name": "Card 20" },
-  "C021": { "id": "C021", "isToken": false, "face": { "front": { "name": "Card 21", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(21).png", "isHorizontal": false } }, "name": "Card 21" },
-  "C022": { "id": "C022", "isToken": false, "face": { "front": { "name": "Card 22", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(22).png", "isHorizontal": false } }, "name": "Card 22" },
-  "C023": { "id": "C023", "isToken": false, "face": { "front": { "name": "Card 23", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(23).png", "isHorizontal": false } }, "name": "Card 23" },
-  "C024": { "id": "C024", "isToken": false, "face": { "front": { "name": "Card 24", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(24).png", "isHorizontal": false } }, "name": "Card 24" },
-  "C025": { "id": "C025", "isToken": false, "face": { "front": { "name": "Card 25", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(25).png", "isHorizontal": false } }, "name": "Card 25" },
-  "C026": { "id": "C026", "isToken": false, "face": { "front": { "name": "Card 26", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(26).png", "isHorizontal": false } }, "name": "Card 26" },
-  "C027": { "id": "C027", "isToken": false, "face": { "front": { "name": "Card 27", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(27).png", "isHorizontal": false } }, "name": "Card 27" },
-  "C028": { "id": "C028", "isToken": false, "face": { "front": { "name": "Card 28", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(28).png", "isHorizontal": false } }, "name": "Card 28" },
-  "C029": { "id": "C029", "isToken": false, "face": { "front": { "name": "Card 29", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(29).png", "isHorizontal": false } }, "name": "Card 29" },
-  "C030": { "id": "C030", "isToken": false, "face": { "front": { "name": "Card 30", "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(30).png", "isHorizontal": false } }, "name": "Card 30" } ,
   "C031": { "id": "C031", "isToken": false, "face": { "front": { "name": "Card 31", "type": "Spell", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(31).png", "isHorizontal": false } }, "name": "Card 31", "type": "Spell", "cost": 0 },
   "C032": { "id": "C032", "isToken": false, "face": { "front": { "name": "Card 32", "type": "Spell", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(32).png", "isHorizontal": false } }, "name": "Card 32", "type": "Spell", "cost": 0 },
   "C033": { "id": "C033", "isToken": false, "face": { "front": { "name": "Card 33", "type": "Spell", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(33).png", "isHorizontal": false } }, "name": "Card 33", "type": "Spell", "cost": 0 },
@@ -90,6 +40,4 @@
   "C038": { "id": "C038", "isToken": false, "face": { "front": { "name": "Card 38", "type": "Spell", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(38).png", "isHorizontal": false } }, "name": "Card 38", "type": "Spell", "cost": 0 },
   "C039": { "id": "C039", "isToken": false, "face": { "front": { "name": "Card 39", "type": "Spell", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(39).png", "isHorizontal": false } }, "name": "Card 39", "type": "Spell", "cost": 0 },
   "C040": { "id": "C040", "isToken": false, "face": { "front": { "name": "Card 40", "type": "Spell", "cost": 0, "image": "https://ddddddd24.github.io/tcg3/tcg/card%20(40).png", "isHorizontal": false } }, "name": "Card 40", "type": "Spell", "cost": 0 }
-
 }
-
