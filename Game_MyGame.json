@@ -1,10 +1,18 @@
 {
   "name": "My Custom TCG",
   "version": "1.0",
+
+  "defaultRessources": {
+    "backgrounds": [],
+    "decksUrl": ""
+  },
+
   "customHelp": "Règles (V1): 2 joueurs, symétrique. PV: 30 au départ, défaite à 0. Deck principal: 30 cartes, 1 exemplaire max par carte. Extra deck: cartes 31 à 40 (Ruine de magie, spells). Main de départ: 3 cartes. Mulligan: remplacer certaines cartes, aucun coût. Pioche: 1 carte au début de votre tour. Main max: 10 cartes. Mana: cristaux = 1 au tour 1, +1 par tour (max 10). Les cristaux dépensés n'affectent pas le total du tour suivant. Board: maximum 6 unités. Sorts: après résolution, mettre à la défausse. Fatigue: si vous piochez avec deck vide, prenez 1 dégât, puis 2, puis 3, etc (augmente à chaque pioche impossible).",
+
   "cards": {
     "dataUrl": "https://ddddddd24.github.io/tcg3/CardList_MyGame.json"
   },
+
   "deckBuilding": {
     "mainFilters": ["type"],
     "formats": [
@@ -15,6 +23,7 @@
       }
     ]
   },
+
   "gameplay": {
     "Default": {
       "mulligan": {
@@ -24,19 +33,21 @@
         "putSelectionAtBottom": true,
         "drawNewSelectedCards": true
       },
+
       "newTurn": {
         "drawOnStart": true,
         "sharedTurn": false,
         "firstPlayerTokenName": "",
         "drawPerTurn": 1
       },
+
       "defaultNotes": "",
       "tokens": [],
-      "countersStartingValues": [
-        "30",
-        "1"
-      ],
+
+      "countersStartingValues": ["30"],
+
       "hideFacedDownCards": false,
+
       "sections": {
         "customSections": [
           "Deck",
@@ -50,6 +61,7 @@
           "Unit_5",
           "Unit_6"
         ],
+
         "layout": {
           "direction": "column",
           "isSymetricalForOpponents": true,
@@ -78,13 +90,14 @@
             }
           ]
         },
-        "categoriesAlreadyOnBoard": [
-          "Extra deck->Extra_Deck"
-        ],
+
+        "categoriesAlreadyOnBoard": ["Extra deck->Extra_Deck"],
+
         "autoPlayFromHand": {},
         "autoPlayFromStack": {
           "Spell": "Discard"
         },
+
         "sectionsDict": {
           "Deck": {
             "title": "Deck",
@@ -102,6 +115,7 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
+
           "Hand": {
             "title": "Hand",
             "isHidden": "no",
@@ -118,6 +132,7 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
+
           "Discard": {
             "title": "Discard",
             "isHidden": "no",
@@ -134,6 +149,7 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
+
           "Extra_Deck": {
             "title": "Extra_Deck",
             "isHidden": "yes",
@@ -150,6 +166,7 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
+
           "Unit_1": {
             "title": "Unit_1",
             "isHidden": "no",
