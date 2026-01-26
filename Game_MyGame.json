@@ -1,13 +1,10 @@
 {
   "name": "My Custom TCG",
   "version": "1.0",
-
   "customHelp": "Règles (V1): 2 joueurs, symétrique. PV: 30 au départ, défaite à 0. Deck principal: 30 cartes, 1 exemplaire max par carte. Extra deck: cartes 31 à 40 (Ruine de magie, spells). Main de départ: 3 cartes. Mulligan: remplacer certaines cartes, aucun coût. Pioche: 1 carte au début de votre tour. Main max: 10 cartes. Mana: cristaux = 1 au tour 1, +1 par tour (max 10). Les cristaux dépensés n'affectent pas le total du tour suivant. Board: maximum 6 unités. Sorts: après résolution, mettre à la défausse. Fatigue: si vous piochez avec deck vide, prenez 1 dégât, puis 2, puis 3, etc (augmente à chaque pioche impossible).",
-
   "cards": {
     "dataUrl": "https://ddddddd24.github.io/tcg3/CardList_MyGame.json"
   },
-
   "deckBuilding": {
     "mainFilters": ["type"],
     "formats": [
@@ -18,33 +15,28 @@
       }
     ]
   },
-
   "gameplay": {
     "Default": {
       "mulligan": {
+        "info": "",
         "startingHandSize": "3",
         "drawNewHand": false,
-        "putSelectionAtBottom": false,
-        "drawNewSelectedCards": false
+        "putSelectionAtBottom": true,
+        "drawNewSelectedCards": true
       },
-
       "newTurn": {
         "drawOnStart": true,
         "sharedTurn": false,
         "firstPlayerTokenName": "",
         "drawPerTurn": 1
       },
-
+      "defaultNotes": "",
       "tokens": [],
-
       "countersStartingValues": [
         "30",
-        "1",
-        "0"
+        "1"
       ],
-
       "hideFacedDownCards": false,
-
       "sections": {
         "customSections": [
           "Deck",
@@ -58,7 +50,6 @@
           "Unit_5",
           "Unit_6"
         ],
-
         "layout": {
           "direction": "column",
           "isSymetricalForOpponents": true,
@@ -87,95 +78,173 @@
             }
           ]
         },
-
         "categoriesAlreadyOnBoard": [
           "Extra deck->Extra_Deck"
         ],
-
         "autoPlayFromHand": {},
-        "autoPlayFromStack": {},
-
+        "autoPlayFromStack": {
+          "Spell": "Discard"
+        },
         "sectionsDict": {
           "Deck": {
             "title": "Deck",
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "DECK",
-            "isHorizontalAllowed": false
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Deck",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           },
-
           "Hand": {
             "title": "Hand",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "HAND",
-            "isHorizontalAllowed": true
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Hand",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           },
-
           "Discard": {
             "title": "Discard",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "DECK",
-            "isHorizontalAllowed": false
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Discard",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           },
-
           "Extra_Deck": {
             "title": "Extra_Deck",
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "DECK",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
             "isHorizontalAllowed": false,
-            "displayedTitle": "Extra Deck"
+            "displayedTitle": "Extra Deck",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           },
-
           "Unit_1": {
             "title": "Unit_1",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Unit"
+            "displayedTitle": "Unit",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           },
           "Unit_2": {
             "title": "Unit_2",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Unit"
+            "displayedTitle": "Unit",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           },
           "Unit_3": {
             "title": "Unit_3",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Unit"
+            "displayedTitle": "Unit",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           },
           "Unit_4": {
             "title": "Unit_4",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Unit"
+            "displayedTitle": "Unit",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           },
           "Unit_5": {
             "title": "Unit_5",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Unit"
+            "displayedTitle": "Unit",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           },
           "Unit_6": {
             "title": "Unit_6",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Unit"
+            "displayedTitle": "Unit",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           }
         }
       }
