@@ -1,9 +1,16 @@
 {
   "name": "My Custom TCG",
-  "version": "1.0",
+  "menuBackgroundImage": "https://ddddddd24.github.io/tcg3/tcg/card%20(1).png",
+
+  "defaultRessources": {
+    "backgrounds": [],
+    "decksUrl": "https://ddddddd24.github.io/tcg3/Decks_MyGame.json"
+  },
 
   "cards": {
-    "dataUrl": "https://ddddddd24.github.io/tcg3/CardList_MyGame.json"
+    "dataUrl": "https://ddddddd24.github.io/tcg3/CardList_MyGame.json",
+    "cardBack": "https://ddddddd24.github.io/tcg3/tcg/card%20(1).png",
+    "cardBackColor": "#222222"
   },
 
   "deckBuilding": {
@@ -20,6 +27,7 @@
   "gameplay": {
     "Default": {
       "mulligan": {
+        "info": "",
         "startingHandSize": "5",
         "drawNewHand": false,
         "putSelectionAtBottom": false,
@@ -31,11 +39,13 @@
         "firstPlayerTokenName": "",
         "drawPerTurn": 1
       },
+      "defaultNotes": "",
       "tokens": [],
       "countersStartingValues": [],
       "hideFacedDownCards": false,
+
       "sections": {
-        "customSections": ["Deck", "Hand", "Board", "Discard"],
+        "customSections": ["Board", "Deck", "Hand", "Discard"],
         "layout": {
           "direction": "column",
           "isSymetricalForOpponents": true,
@@ -44,38 +54,54 @@
             {
               "direction": "row",
               "isSymetricalForOpponents": true,
-              "content": [{ "section": "Deck" }, { "section": "Hand" }, { "section": "Discard" }]
+              "content": [
+                { "section": "Deck" },
+                { "section": "Hand" },
+                { "section": "Discard" }
+              ]
             }
           ]
         },
         "sectionsDict": {
+          "Board": {
+            "title": "Board",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "isHorizontalAllowed": true,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
           "Deck": {
             "title": "Deck",
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "DECK",
-            "isHorizontalAllowed": false
+            "opponentAlignment": false,
+            "isHorizontalAllowed": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
           },
           "Hand": {
             "title": "Hand",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "HAND",
-            "isHorizontalAllowed": true
-          },
-          "Board": {
-            "title": "Board",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER",
-            "isHorizontalAllowed": true
+            "opponentAlignment": false,
+            "isHorizontalAllowed": true,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
           },
           "Discard": {
             "title": "Discard",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "DECK",
-            "isHorizontalAllowed": false
+            "opponentAlignment": false,
+            "isHorizontalAllowed": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
           }
         }
       }
