@@ -1,0 +1,84 @@
+{
+  "name": "My Custom TCG",
+  "version": "1.0",
+
+  "cards": {
+    "dataUrl": "https://ddddddd24.github.io/tcg3/CardList_MyGame.json"
+  },
+
+  "deckBuilding": {
+    "mainFilters": [],
+    "formats": [
+      {
+        "title": "Default",
+        "gameplay": "Default",
+        "customCategories": []
+      }
+    ]
+  },
+
+  "gameplay": {
+    "Default": {
+      "mulligan": {
+        "startingHandSize": "5",
+        "drawNewHand": false,
+        "putSelectionAtBottom": false,
+        "drawNewSelectedCards": false
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": 1
+      },
+      "tokens": [],
+      "countersStartingValues": [],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": ["Deck", "Hand", "Board", "Discard"],
+        "layout": {
+          "direction": "column",
+          "isSymetricalForOpponents": true,
+          "content": [
+            { "section": "Board" },
+            {
+              "direction": "row",
+              "isSymetricalForOpponents": true,
+              "content": [{ "section": "Deck" }, { "section": "Hand" }, { "section": "Discard" }]
+            }
+          ]
+        },
+        "sectionsDict": {
+          "Deck": {
+            "title": "Deck",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "DECK",
+            "isHorizontalAllowed": false
+          },
+          "Hand": {
+            "title": "Hand",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "HAND",
+            "isHorizontalAllowed": true
+          },
+          "Board": {
+            "title": "Board",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "isHorizontalAllowed": true
+          },
+          "Discard": {
+            "title": "Discard",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "DECK",
+            "isHorizontalAllowed": false
+          }
+        }
+      }
+    }
+  }
+}
