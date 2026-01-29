@@ -1,5 +1,5 @@
 {
-  "name": "My Custom TCG",
+  "name": "Deck du récif",
   "version": "1.0",
 
   "defaultRessources": {
@@ -268,3 +268,4 @@
     }
   }
 }
+
